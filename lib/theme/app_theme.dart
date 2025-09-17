@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   // ---- Core palette ----
-  static const _brand = Color.fromARGB(255, 215, 100, 58);
+  static const _brand = Color.fromARGB(255, 71, 104, 179);
 
   // Light
   static final light = ThemeData(

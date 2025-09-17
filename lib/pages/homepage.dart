@@ -256,17 +256,17 @@ class _ProductCard extends StatelessWidget {
   Color _chipBg(BuildContext context, String key) {
     final dark = Theme.of(context).brightness == Brightness.dark;
     switch (key) {
-      case 'cyber': return dark ? const Color(0xFF1F2A3A) : const Color(0xFFE8EAF6);
-      case 'data-center': return dark ? const Color(0xFF1D2B38) : const Color(0xFFE6F1FF);
-      case 'digital-transformation': return dark ? const Color(0xFF1E2F22) : const Color(0xFFEFF7E8);
-      default: return dark ? const Color(0xFF1E2732) : const Color(0xFFF0F2F7);
+      case 'cyber': return dark ? const Color.fromARGB(255, 31, 17, 17) : const Color(0xFFE8EAF6);
+      case 'data-center': return dark ? const Color.fromARGB(255, 17, 22, 31) : const Color(0xFFE6F1FF);
+      case 'digital-transformation': return dark ? const Color.fromARGB(255, 20, 31, 22) : const Color(0xFFEFF7E8);
+      default: return dark ? const Color.fromARGB(255, 31, 17, 17) : const Color(0xFFF0F2F7);
     }
   }
   Color _chipFg(BuildContext context, String key) {
     switch (key) {
-      case 'cyber': return const Color(0xFFBEC6D6);
-      case 'data-center': return const Color(0xFF9CC2FF);
-      case 'digital-transformation': return const Color(0xFF9AD199);
+      case 'cyber': return const Color.fromARGB(255, 195, 109, 109);
+      case 'data-center': return const Color.fromARGB(255, 110, 139, 187);
+      case 'digital-transformation': return const Color.fromARGB(255, 116, 161, 115);
       default: return const Color(0xFFBFC7D5);
     }
   }

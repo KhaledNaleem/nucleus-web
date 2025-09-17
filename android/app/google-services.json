@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "251802356530",
+    "project_id": "nucleus-ef2d2",
+    "storage_bucket": "nucleus-ef2d2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251802356530:android:6e9b4479719719ba57252b",
+        "android_client_info": {
+          "package_name": "com.example.nucleus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4O9qmMC8GjrHIBIRq8tRHI9XmgnnHxE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
